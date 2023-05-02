@@ -1,0 +1,23 @@
+data:
+  data: ZINC250k
+  dir: './data'
+
+model:
+  diff:
+    ckpt: gdss_zinc250k_v2
+    predictor: Reverse
+    corrector: Langevin
+    snr: 0.2
+    scale_eps: 0.8
+    n_steps: 1
+  prop:
+    ckpt: prop_May02-04:43:00 #prop_parp1
+    weight_x: 0.5   # 0.5, 0.4, 0.6, 0.7, and 0.6 for parp1, fa7, 5ht1b, braf, and jak2, respectively
+    weight_adj: 0
+
+sample:
+  noise_removal: True
+  probability_flow: False
+  eps: 1.0e-3
+  num_samples: 500
+  ood: 0.04

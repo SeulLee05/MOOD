@@ -1,0 +1,33 @@
+data: 
+  data: ZINC250k
+  dir: './data'
+  batch_size: 1024
+  max_node_num: 38
+  max_feat_num: 9
+
+sde:
+  x:
+    type: VP
+    beta_min: 0.1
+    beta_max: 1.0
+    num_scales: 1000
+  adj:
+    type: VE
+    beta_min: 0.2
+    beta_max: 1.0
+    num_scales: 1000
+
+model:
+  model: Regressor
+  depth: 3
+  nhid: 16
+  dropout: 0
+
+train:
+  prop: parp1_qed_sa
+  num_epochs: 10
+  lr: 0.001
+  lr_schedule: False
+  weight_decay: 0.0001
+  lr_decay: 0.999
+  eps: 1.0e-5
