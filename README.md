@@ -1,4 +1,4 @@
-# Exploring Chemical Space with Score-based Out-of-distribution Generation
+# Exploring Chemical Space with<br>Score-based Out-of-distribution Generation
 
 This is the official code repository for the paper [Exploring Chemical Space with Score-based Out-of-distribution Generation](https://arxiv.org/abs/2206.07632) (ICML 2023), in which we propose *Molecular Out-Of-distribution Diffusion (MOOD)*.
 
@@ -53,9 +53,7 @@ If you find this repository and our paper useful, we kindly request to cite our 
 
 ```BibTex
 @article{lee2023MOOD,
-  author    = {Seul Lee and
-               Jaehyeong Jo and
-               Sung Ju Hwang},
+  author    = {Seul Lee and Jaehyeong Jo and Sung Ju Hwang},
   title     = {Exploring Chemical Space with Score-based Out-of-distribution Generation},
   journal   = {Proceedings of the 40th International Conference on Machine Learning},
   year      = {2023}
