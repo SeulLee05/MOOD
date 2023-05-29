@@ -19,5 +19,5 @@ sample:
   noise_removal: True
   probability_flow: False
   eps: 1.0e-3
-  num_samples: 500
+  num_samples: 3000
   ood: 0.04
