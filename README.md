@@ -20,6 +20,7 @@ conda activate mood
 conda install -c pytorch pytorch==1.12.0 cudatoolkit=11.3
 conda install -c conda-forge rdkit=2020.09 openbabel
 pip install tqdm pyyaml pandas easydict networkx==2.6.3 numpy==1.20.3
+chmod u+x scorer/qvina02
 ```
 
 ## Running Experiments
