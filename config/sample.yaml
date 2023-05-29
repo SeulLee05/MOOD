@@ -11,7 +11,7 @@ model:
     scale_eps: 0.8
     n_steps: 1
   prop:
-    ckpt: prop_May02-04:43:00 #prop_parp1
+    ckpt: prop_parp1
     weight_x: 0.5   # 0.5, 0.4, 0.6, 0.7, and 0.6 for parp1, fa7, 5ht1b, braf, and jak2, respectively
     weight_adj: 0
 
