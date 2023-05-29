@@ -28,7 +28,7 @@ def get_dockingvina(target, exhaustiveness=1, num_cpu=5):
         box_size = (22.5, 22.5, 22.5)
 
     docking_config['receptor_file']     = f'scorer/receptors/{target}.pdbqt'
-    docking_config['vina_program']      = 'scorer/qvina02'
+    docking_config['vina_program']      = 'scorer/bin/qvina02'
     docking_config['box_parameter']     = (box_center, box_size)
     docking_config['exhaustiveness']    = exhaustiveness
     docking_config['num_sub_proc']      = 10
